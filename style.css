@@ -4,6 +4,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color:dimgray;
+}
 .name-high{
     color: coral; 
 }
@@ -11,9 +17,33 @@ h1{
 width:40%;
 float:left;
 margin-left: 5%;
-padding-left: 2%;
+padding-left: 1%;
 
 }
 .half-width img{
 width:100%;
+}
+.top-banner{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(45deg,lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight:700;
+
+}
+.dream-area{
+background-image: url("images/dream-bg.png");
+background-repeat: no-repeat;
+background-position: right ;
 }
