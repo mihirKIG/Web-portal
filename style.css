@@ -10,7 +10,7 @@ h2{
 p{
     color:dimgray;
 }
-.name-high{
+.orange-highted{
     color: coral; 
 }
 .half-width{
@@ -47,3 +47,30 @@ background-image: url("images/dream-bg.png");
 background-repeat: no-repeat;
 background-position: right ;
 }
+.single-experince{
+    box-shadow: 10px 10px 30px blueviolet;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+}
+
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fullstack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#junior{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blueviolet,cyan);
+    border-image-slice: 1;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+}
+
